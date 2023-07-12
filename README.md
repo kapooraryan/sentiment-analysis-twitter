@@ -36,8 +36,8 @@ To run the sentiment analysis app, follow these steps:
 **Note:** Access the app in your browser at http://localhost:8501.
 
 # Requirements
-Python 3.7 or above
-pandas
-nltk
-scikit-learn
-streamlit
+- Python 3.7 or above
+- pandas
+- nltk
+- scikit-learn
+- streamlit
