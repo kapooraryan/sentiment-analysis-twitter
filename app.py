@@ -32,7 +32,7 @@ def preprocess_text(text):
     return text
 
 # Load sentiment data
-text_sentiment_data = pd.read_csv('tweets.csv')
+text_sentiment_data = pd.read_csv('Tweets.csv')
 text_sentiment_df = text_sentiment_data.drop(text_sentiment_data[text_sentiment_data['airline_sentiment_confidence'] < 0.5].index, axis=0)
 X = text_sentiment_df['text']
 Y = text_sentiment_df['airline_sentiment']
