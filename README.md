@@ -21,7 +21,7 @@ To run the sentiment analysis app, follow these steps:
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/your-username/sentiment-analysis-app.git
+   git clone https://github.com/kapooraryan/sentiment-analysis-twitter.git
    
 2. Install the required dependencies:
 
